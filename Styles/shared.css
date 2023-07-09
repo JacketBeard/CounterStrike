@@ -1,0 +1,88 @@
+body {
+    /*background-color: rgb(26, 130, 162);*/
+    background-color: #119dd0;
+    color: #FFF;
+    text-align: center;
+}
+
+header {
+    padding: 34px;
+    margin: 30px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-size: 50px;
+}
+
+nav {
+    width: 1200px;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+ul a {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ul a:hover,
+ul a:active {
+    background-color: rgb(250, 184, 61);
+}
+
+p {
+    font-family: 'Rubik';
+}
+
+[title="Inventory"] {
+    background-color: rgb(241, 136, 0);
+    padding: 10px 100px;
+    margin: 0;
+}
+
+[title="Education"] {
+    background-color: rgb(0, 0, 95);
+    margin: 0;
+    padding: 10px 82px;
+}
+
+[title="Education"]:hover,
+[title="Education"]:active {
+    background-color: rgb(74, 74, 236);
+}
+
+main {
+    font-family: 'Rubik';
+}
+
+footer {
+    margin: 30px auto;
+    padding: 10px;
+}
+
+footer a {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer a:hover,
+footer a:active {
+    background-color: rgb(11, 0, 105);
+}
