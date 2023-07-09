@@ -50,6 +50,12 @@ img {
     margin-top: 10px;
 }
 
+img:hover {
+    width: 600px;
+    border: 8px solid orange;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
 footer {
     margin: 30px auto;
     padding: 10px;
