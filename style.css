@@ -1,0 +1,91 @@
+p {
+    font-size: 24px;
+}
+
+main {
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+
+[title="Inventory"] {
+    background-color: rgb(241, 136, 0);
+    padding: 10px 100px;
+    margin: 0;
+}
+
+[title="Education"] {
+    background-color: rgb(0, 0, 95);
+    margin: 0;
+    padding: 10px 82px;
+}
+
+[title="Education"]:hover,
+[title="Education"]:active {
+    background-color: rgb(74, 74, 236);
+}
+
+main a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: orangered;
+    border: 2px solid yellow;
+    padding: 8px;
+    display: inline-block;
+    margin-top: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+}
+
+main a:hover,
+main a:active {
+    border-style: dashed;
+    background-color: rgb(241, 136, 0);
+}
+
+img {
+    width: 264px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    margin: 30px auto;
+    padding: 10px;
+}
+
+footer a {
+    margin: 0 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer a:hover,
+footer a:active {
+    background-color: rgb(11, 0, 105);
+}
+
+.design {
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    display: inline;
+    box-shadow: none;
+}
+
+.design:hover,
+.design:active {
+    background-color: rgb(0, 0, 100);
+    border: none;
+    padding: 4px;
+    border-radius: 10px;
+    text-decoration: underline;
+}  
