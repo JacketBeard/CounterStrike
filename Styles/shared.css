@@ -69,7 +69,9 @@ main {
 
 footer {
     margin: 30px auto;
-    padding: 10px;
+    padding: 0 0 60px 0;
+    background-color: rgb(44, 40, 40);
+    text-align: center;
 }
 
 footer a {
@@ -80,6 +82,8 @@ footer a {
     text-decoration: none;
     padding: 10px;
     border-radius: 10px;
+    position: relative;
+    top: 30px;
 }
 
 footer a:hover,
